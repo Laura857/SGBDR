@@ -15,7 +15,7 @@ Ce projet contient les fonctionnalités suivantes :
 - Jointure avec "page oriented nested loop".
 
 
-# Commandes possible depuis le terminal pour SGBDR
+# Commandes possibles depuis le terminal pour SGBDR
 Pour créer : create nomRel nbrCol typeCol1, typeCol2 ... typeColn
 
 Pour insérer un élement : insert nomRelation val1 val2 ... valn
