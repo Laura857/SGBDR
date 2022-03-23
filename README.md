@@ -17,12 +17,21 @@ Ce projet contient les fonctionnalités suivantes :
 
 # Commandes possible depuis le terminal pour SGBDR
 Pour créer : create nomRel nbrCol typeCol1, typeCol2 ... typeColn
+
 Pour insérer un élement : insert nomRelation val1 val2 ... valn
+
 Pour insérer plusieurs élements : insertall nomRel fichier.csv
+
 Pour séléctionner tous les records d'une relation: select nomRelation indiceColonne valeur
+
 Pour séléctionner certains records d'une relation : selectall nomRelation
+
 Pour supprimer un Record : deleteate nomRel indiceColonne valeur
+
 Pour créer un index : createindex nomRelation indice_colonne ordre
+
 Pour séléctionner un index : selectindex nomRelation indiceColonne valeur
+
 Pour faire une jointure : join nomRel1 nomRel2 indiceColonne1 indiceColonne2
+
 Pour tout nettoyer : clean
